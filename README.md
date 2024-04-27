@@ -33,7 +33,7 @@ Open a terminal and go to the working directory then run:
 
 `$ php bin/console sudoku:validator --filepath=/Users/admin/code/sudoku-5/src/Csv/sudoku.csv`
 
-If the Sudoku Plus file is valid, you'll get a JSON response like:
+If the Sudoku Plus file is valid, you'll get a message response like:
 
 <img width="856" alt="Screenshot 2024-04-26 at 6 05 45 PM" src="https://github.com/ralphmoran/sudoku/assets/5456155/ba77f3ca-8271-417d-be57-4dcb37f1f054">
 
