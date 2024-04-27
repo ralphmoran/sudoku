@@ -8,7 +8,7 @@
 <body>
   <form method="post" action="{{ path('sudoku_verify') }}" enctype="multipart/form-data">
     <label for="file">Sudoku CSV File</label>
-    <input id="file" name="sudoku" type="file" />
+    <input id="file" name="sudoku" type="file" accept=".csv" />
     <button>Upload</button>
   </form>
 </body>

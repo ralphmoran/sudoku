@@ -44,6 +44,14 @@ class SudokuValidateCommand extends Command
             return Command::FAILURE;
         }
 
+        // Only CSV files
+        if (pathinfo($filepath)['extension'] != 'csv') {
+
+            $io->error('Only CSV files are accepted.');
+
+            return Command::FAILURE;
+        }
+
         // Error: The CSV is invalid
         if (! SudokuValidatorService::isSudokuPlusValid($filepath)) {
             $io->error(
