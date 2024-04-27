@@ -11,13 +11,13 @@ Install dependencies
 
 Run web server
 
-`$ php bin/console serve -d or $ symfony serve -d`
+`$ php bin/console serve -d` or `$ symfony serve -d`
 
 ## Usage
 
 #### Website
 
-Go to `https://127.0.0.1:8000/show`, it is a simply form to upload a CSV file (only CSV files are accepted).
+Go to `https://127.0.0.1:8000/show`, it is a simple form to upload a CSV file (only CSV files are accepted).
 
 If the Sudoku Plus file is valid, you'll get a JSON response like:
 
