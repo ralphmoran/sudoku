@@ -40,3 +40,7 @@ If the Sudoku Plus file is valid, you'll get a JSON response like:
 Otherwise:
 
 <img width="860" alt="Screenshot 2024-04-26 at 6 05 30 PM" src="https://github.com/ralphmoran/sudoku/assets/5456155/956bad3f-3ef4-4ddf-936e-5aa3c1a8d851">
+
+## CSV files for tests
+
+Within the `src/Csv` folder, there are 2 CSV files, one is a valid Sudoku Plus grid, the other one is not. You can use these or your own files.
