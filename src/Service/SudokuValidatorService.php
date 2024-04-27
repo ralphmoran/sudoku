@@ -48,5 +48,3 @@ class SudokuValidatorService
         return $totalRows == $cols;
     }
 }
-
-// php bin/console sudoku:validator --filepath=/Users/admin/code/sudoku-5/src/Csv/sudoku.csv
