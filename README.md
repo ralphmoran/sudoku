@@ -35,8 +35,8 @@ Open a terminal and go to the working directory then run:
 
 If the Sudoku Plus file is valid, you'll get a JSON response like:
 
-`[OK] The Sudoku Plus file "/Users/admin/code/sudoku-5/src/Csv/sudoku.csv" is valid.`
+<img width="856" alt="Screenshot 2024-04-26 at 6 05 45 PM" src="https://github.com/ralphmoran/sudoku/assets/5456155/ba77f3ca-8271-417d-be57-4dcb37f1f054">
 
 Otherwise:
 
-`[ERROR] The Sudoku Plus file "/Users/admin/code/sudoku-5/src/Csv/sudoku-invalid.csv" is not valid.`
+<img width="860" alt="Screenshot 2024-04-26 at 6 05 30 PM" src="https://github.com/ralphmoran/sudoku/assets/5456155/956bad3f-3ef4-4ddf-936e-5aa3c1a8d851">
